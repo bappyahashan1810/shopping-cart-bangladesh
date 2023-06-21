@@ -51,3 +51,10 @@ const squareAvarage = (one, two, three) => {
 const numbers = [2, 3, 4];
 const result3 = squareAvarage(...numbers);
 console.log(`third ans: ${result3}`);
+
+const s = 0;
+const fiveNumbers = [1, 2, 3, 4, 5].map(x => Math.pow(x, 2));
+const fiveNumbersSum = fiveNumbers.map(x => x + s);
+const avge = fiveNumbersSum / 5;
+console.log(fiveNumbers);
+console.log(avge);
